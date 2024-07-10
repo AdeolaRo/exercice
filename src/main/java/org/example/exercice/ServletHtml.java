@@ -20,7 +20,6 @@ public class ServletHtml extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("Une requete GET est envoyé à /monservlet");
 
         resp.setContentType("text/html");
 
@@ -34,6 +33,6 @@ public class ServletHtml extends HttpServlet {
 
     @Override
     public void destroy() {
-        System.out.println("Destruction du servlet");
+
     }
 }
