@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>Title</title>
+    <link rel="Stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -16,7 +17,7 @@
 <br/>
 
 <h2>Mes Liens</h2>
-<a href="servletHtml">servletHtml</a>
+<a href="servletHtml">servletHtml</a> <br>
 <a href="servletPlain">servletPlain</a>
 
 </body>

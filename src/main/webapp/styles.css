@@ -1,0 +1,13 @@
+body{
+background-color: burlywood;
+        align-items: center;
+    justify-content: center;
+}
+
+h1, h2, a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+text-align: justify-all;
+    color: brown;
+}
