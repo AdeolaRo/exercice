@@ -1,5 +1,6 @@
 package org.example.exercice;
 
+
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -8,23 +9,13 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-
-@WebServlet(name = "servletJSP", value = "/servletJSP")
-public class ServletJSP extends HttpServlet {
-
-    @Override
-    public void init() throws ServletException {
-    }
+@WebServlet(name="monServletJSP", value = "/monservlet-jsp")
+public class ServletJSP1 extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
-
-    }
-
-    @Override
-    public void destroy() {
+        req.getRequestDispatcher("pageC.jsp").forward(req, resp);
 
     }
 }

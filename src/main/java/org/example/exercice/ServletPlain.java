@@ -24,6 +24,7 @@ public class ServletPlain extends HttpServlet {
         PrintWriter writer = resp.getWriter();
         writer.println("Je renvois du texte comme indiqué");
 
+
     }
 
     @Override
