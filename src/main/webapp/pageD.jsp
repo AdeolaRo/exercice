@@ -11,7 +11,7 @@
     <title>Title</title>
     <%@include file="WEB-INF/bootstrap.html"%>
 </head>
-body>
+<body>
 <div class="container">
 
     <h1> "Voici la page D" </h1>
